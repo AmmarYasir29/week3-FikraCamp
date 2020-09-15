@@ -126,6 +126,7 @@ section#listCard {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  background-color: #fff;
 }
 .card {
   width: 327.54px;
