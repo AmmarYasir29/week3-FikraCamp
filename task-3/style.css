@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+header {
+  background-image: url(./img/rectangle-17.png);
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 100px;
+}
+nav h3 {
+  font-weight: bold;
+}
+nav ul {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+.content {
+  width: 100%;
+  text-align: center;
+}
+.content h1 {
+  font-size: 50px;
+  color: white;
+}
+.content p {
+  color: white;
+  width: 400px;
+  margin: 30px auto;
+}
+.btn {
+  background-color: #325dff;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+section {
+  height: 100vh;
+}
+.sectionOne h3 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.sectionOne p {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 100px;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  /* background-color: white; */
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+}
+.box span {
+  margin: 10px 0;
+}
+.box p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sectionTwo {
+  height: 100vh;
+  position: relative;
+}
+.sectionTwo img {
+  width: 100%;
+  object-fit: cover;
+}
+.overView {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  text-align: center;
+  color: white;
+}
+.overView h2 {
+  margin: 30px 0 20px 0;
+}
+.sectionThree {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.col {
+  background-color: white;
+}
+.col h3 {
+  margin: 30px 0;
+  text-align: center;
+}
+.col p {
+  margin: 40px 0;
+  text-align: center;
+}
+.col button {
+  text-align: center;
+}
+footer {
+  background-color: #325dff;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
